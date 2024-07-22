@@ -1,0 +1,11 @@
+.preserve3d {
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+  }
+
+
+.transform{
+    transform: 
+        rotateY(calc(var(--position-1) * (360/3) * 1deg));
+        translateZ(550px);
+}
